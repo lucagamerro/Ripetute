@@ -117,7 +117,7 @@ class _TimerPageState extends State<TimerPage> {
         if (counter > 0) {
           counter--;
           updateFrasi();
-        } else {
+        } else { 
           timer.cancel();
 
           times++;
