@@ -71,9 +71,9 @@ class _TimerPageState extends State<TimerPage> {
 
   void updateFrasi() {
     if (counterMax != null && counter != 0) {
-      if (counter >= (counterMax - 9)) {
+      if (counter >= (counterMax - (secondi - 1))) {
         frasiMotivatorie = 'Il tempo sta per iniziare...';
-      } else if (counter == (counterMax - 10) ||
+      } else if (counter == (counterMax - secondi) ||
           counter == (counterMax - 11) ||
           counter == (counterMax - 12)) {
         frasiMotivatorie = 'VIA';
@@ -148,7 +148,7 @@ class _TimerPageState extends State<TimerPage> {
       //  });
       //}
 
-      if (counter == (counterMax - 9)) {
+      if (counter == (counterMax - secondi)) {
         startSound('https://audio-repository.surge.sh/via.mp3');
       } else if (counter == (counterMax / 2)) {
         startSound('https://audio-repository.surge.sh/meta.mp3');
