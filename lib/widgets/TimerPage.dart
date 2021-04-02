@@ -74,8 +74,8 @@ class _TimerPageState extends State<TimerPage> {
       if (counter >= (counterMax - (secondi - 1))) {
         frasiMotivatorie = 'Il tempo sta per iniziare...';
       } else if (counter == (counterMax - secondi) ||
-          counter == (counterMax - 11) ||
-          counter == (counterMax - 12)) {
+          counter == (counterMax - (secondi + 1)) ||
+          counter == (counterMax - (secondi + 2))) {
         frasiMotivatorie = 'VIA';
       } else if (counter <= 10 && counter >= 5) {
         frasiMotivatorie = 'Ci sei quasi!';
