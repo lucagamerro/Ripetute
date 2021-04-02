@@ -234,14 +234,6 @@ class _TimerPageState extends State<TimerPage> {
     )
   ];
 
-  //static const shBox = <BoxShadow>[
-  //  BoxShadow(
-  //    offset: Offset(0, 0),
-  //    blurRadius: 18,
-  //    color: Colors.black,
-  //  )
-  //];
-
   @override
   Widget build(BuildContext context) {
     return Container(

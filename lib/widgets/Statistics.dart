@@ -311,20 +311,6 @@ class _StatisticsState extends State<Statistics> {
               onLongPress: () =>
                   shareText('Oggi ho completato $quantiOggi ripetute!'),
             ),
-            //Container(
-            //  child: Container(
-            //    child: Text(
-            //      'settimana',
-            //      style: TextStyle(
-            //        fontSize: 18,
-            //        fontWeight: FontWeight.bold,
-            //        color: Colors.black,
-            //      ),
-            //    ),
-            //    margin: EdgeInsets.only(left: 20),
-            //  ),
-            //  margin: const EdgeInsets.all(8),
-            //),
             Container(
               child: AspectRatio(
                 aspectRatio: 1.7,
@@ -489,21 +475,3 @@ class MyBehavior extends ScrollBehavior {
     return child;
   }
 }
-
-//Expanded(
-//  child: ListView.builder(
-//    padding: const EdgeInsets.all(8),
-//    itemCount: datiripetute.length,
-//    itemBuilder: (BuildContext context, int index) {
-//      return GestureDetector(
-//        child: Container(
-//          height: 50,
-//          child: Text(
-//              '${datiripetute[index].tipo} * ${datiripetute[index].data}'),
-//        ),
-//        onLongPress: () => shareText(
-//            'Il ${datiripetute[index].data} ho fatto una ripetuta ${datiripetute[index].tipo}. Scarica anche tu ripetute su Fdroid!'),
-//      );
-//    },
-//  ),
-//),
