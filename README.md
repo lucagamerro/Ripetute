@@ -5,9 +5,20 @@ La funzione principale è rappresentata dal
 *timer* delle ripetute.
 
 ## Pagine
-1. Timer <br>
-<img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_02.png" width="300" />
-2. Statistiche <br>
-<img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_01.png" width="300" />
-3. Impostazioni <br>
-<img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_03.png" width="300" />
+#### Timer <br>
+<img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_02.png" width="300" /> <br><br>
+#### Statistiche <br>
+<img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_01.png" width="300" /> <br><br>
+#### Impostazioni <br>
+<img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_03.png" width="300" /> <br><br>
+
+# Tecnologie
+Questa applicazione è stata sviluppata con *Flutter*.
+
+# Beta info
+La relese è in versione *beta*. Alcuni bug possono 
+verificarsi nella riproduzione dei suoni. Per 
+qualsiasi informazione, *segnalazione* o idea
+scrivere a [lucagamerro.savemode@gmail.com](mailto:lucagamerro.savemode@gmail.com).
+
+# [Scarica l'app](https://github.com/lucagamerro/Ripetute/releases)
