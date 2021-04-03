@@ -6,8 +6,8 @@ La funzione principale è rappresentata dal
 
 ## Pagine
 * Timer <br>
-<img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_02.png" width="200" />
+* <img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_02.png" width="300" />
 * Statistiche <br>
-<img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_01.png" width="200" />
+* <img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_01.png" width="300" />
 * Impostazioni <br>
-<img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_03.png" width="200" />
+* <img src="https://github.com/lucagamerro/Ripetute/raw/master/flutter_03.png" width="300" />
