@@ -50,12 +50,7 @@ class _TimerPageState extends State<TimerPage> {
       ripetere = [(120 + secondi), (180 + secondi)];
       counter = ripetere[times];
     } else if (selecterSelected == 'Ripetute (2,30min + 2,30min + 2,30min)') {
-      ripetere = [
-        (150 + secondi),
-        (150 + secondi),
-        (150 + secondi),
-        (150 + secondi)
-      ];
+      ripetere = [(150 + secondi), (150 + secondi), (150 + secondi)];
       counter = ripetere[times];
     } else if (selecterSelected == 'Pazzo (3min + 3min + 3min + 3min + 3min)') {
       ripetere = [
